@@ -1,0 +1,47 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/Users/macbook/Desktop/Halligan/Personal_Projects/Motion_Sensor/include",
+                "/Users/macbook/Desktop/Halligan/Personal_Projects/Motion_Sensor/src",
+                "/Users/macbook/.platformio/packages/framework-cmsis/CMSIS/Include",
+                "/Users/macbook/.platformio/packages/framework-cmsis-stm32l4/Include",
+                "/Users/macbook/Desktop/Halligan/Personal_Projects/Motion_Sensor/lib/hal_functions",
+                "/Users/macbook/Desktop/Halligan/Personal_Projects/Motion_Sensor/lib/stm32l432xx",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/Users/macbook/Desktop/Halligan/Personal_Projects/Motion_Sensor/include",
+                    "/Users/macbook/Desktop/Halligan/Personal_Projects/Motion_Sensor/src",
+                    "/Users/macbook/.platformio/packages/framework-cmsis/CMSIS/Include",
+                    "/Users/macbook/.platformio/packages/framework-cmsis-stm32l4/Include",
+                    "/Users/macbook/Desktop/Halligan/Personal_Projects/Motion_Sensor/lib/hal_functions",
+                    "/Users/macbook/Desktop/Halligan/Personal_Projects/Motion_Sensor/lib/stm32l432xx",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60118",
+                "STM32L4",
+                "STM32L432xx",
+                "F_CPU=80000000L",
+                ""
+            ],
+            "compilerPath": "/Users/macbook/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc",
+            "compilerArgs": [
+                "-mthumb",
+                "-mcpu=cortex-m4",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
